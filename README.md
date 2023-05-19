@@ -5,7 +5,7 @@ We choose to implement a parallel version of Sequential Monte Carlo using MPI4py
 
 You can run the distributing computation using:
 ```
-mpiexec -n number_of_processes python particles/cloud_computing.py"
+mpiexec -n number_of_processes python particles/dloud.py"
 ```
 
 The main changed we have done can be seen inside the files smc_samplers.py, core.py and obviously cloud_computing.py.
